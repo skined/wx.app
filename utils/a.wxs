@@ -1,0 +1,2 @@
+var tool=require('./tools.wxs')
+tool.formdate()

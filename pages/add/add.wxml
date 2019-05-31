@@ -1,0 +1,12 @@
+<!--pages/add/add.wxml-->
+<view class=''>
+  <text>
+  请输入标题
+</text>
+  <input type='text' bindinput='setTitle'/>
+  <text>
+  请输入内容
+  </text>
+  <input type='text' bindinput='setContent'/>
+  <button bindtap='getArt'>提交</button>
+</view>

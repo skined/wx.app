@@ -1,0 +1,20 @@
+<!--pages/list/list/html-->
+<!--列表渲染-->
+<!--views盒子容器-->
+<view wx:for="{{list}}" wx:key="*this">
+	{{item}} 
+<!--针对循环自动每一项自动赋值叫做item  可以通过wx:for-item="a" 改变item-->  
+</view>
+<!--显示隐藏-->
+<text>
+  {{msg}}
+</text>
+<text wx:if="{{flag}}"> 
+	显示内容{{msg}} v-if  
+</text>
+<text hidden="{{flag}}">
+    显示 hidden的内容v-show  
+</text>
+<text>
+   {{true?'显示true':'显示false'}}
+</text>

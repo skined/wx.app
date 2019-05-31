@@ -1,0 +1,16 @@
+<!--pages/artlist/artlist.wxml-->
+<!-- <text>pages/artlist/artlist.wxml</text> -->
+<!--pages/artlist1/artlist1.wxml-->
+<!-- scroll-view滚动的时候需要设置滚动高度 -->
+<!--pages/artlist/artlist.wxml-->
+<import src="../tmpl/tmpl.wxml"/>
+<!-- scroll-view滚动的时候需要设置固定高度或者宽度 -->
+<view>
+  <scroll-view style="height:600rpx;" scroll-y="true" bindscrolltolower="tobottom">
+  <block wx:for="{{artData}}" wx:key="*this">
+    <view bindtap="todetail" data-id="{{item.id}}">
+      <template is="list-item" data="{{...item}}"></template>
+    </view>
+  </block>
+  </scroll-view>
+</view>

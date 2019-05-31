@@ -1,0 +1,7 @@
+<!--pages/animate/animate.wxml-->
+<!-- <text>pages/animate/animate.wxml</text> -->
+<view class='animatebox'
+animation="{{animateData}}">
+</view>
+<view>
+</view>

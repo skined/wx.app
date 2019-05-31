@@ -1,0 +1,10 @@
+/* pages/event/event.wxss */
+/* 1rpx-0.5px */
+swiper{
+  width:750rpx;
+  
+}
+swiper image{
+  width:750rpx;
+  
+}

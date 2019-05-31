@@ -1,0 +1,3 @@
+<!--pages/back/back.wxml-->
+<!-- <text>pages/back/back.wxml</text> -->
+<button bindtap='playmusic'>{{musicflag?'播放':'暂停'}}</button>

@@ -1,0 +1,7 @@
+function formdate(time){
+    var date=getDate(time)
+    return date.getFullYear ()+'-'+ date.getMonth()
+}
+module.exports={
+  formdate:formdate
+}

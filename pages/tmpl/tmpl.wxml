@@ -1,0 +1,14 @@
+<!--pages/tmpl/tmpl.wxml-->
+<template name="list-item">
+	 <text>
+	  {{title}}  
+  </text>
+   <text>
+	  {{content}}  
+  </text>
+  <block wx:for="{{roating}}" wx:key="*this">
+    <image wx:if="{{item==1}}" class="star" src="../../images/star1.png"> </image>
+	<image wx:else class="star" src="../../images/star2.png">
+   </image>	  
+  </block>
+</template>

@@ -1,0 +1,5 @@
+/* pages/ajax/ajax.wxss */
+input{
+  border:1px solid #000;
+  
+}

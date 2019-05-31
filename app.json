@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/note/note",
+    "pages/add/add",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/event/event",
+    "pages/ajax/ajax",
+    "pages/back/back",
+    "pages/animate/animate",
+    "pages/artlist/artlist",
+    "pages/detail/detail"
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#58655d",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "blue",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "列表",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/event/event",
+        "text": "分页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/artlist/artlist",
+        "text": "艺术页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}
